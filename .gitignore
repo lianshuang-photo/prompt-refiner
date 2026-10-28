@@ -1,0 +1,10 @@
+.build/
+dist/
+.DS_Store
+*.xcuserstate
+verification/
+.context/
+VERIFICATION.md
+.env
+.env.*
+!.env.example

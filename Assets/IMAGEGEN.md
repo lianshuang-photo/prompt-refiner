@@ -1,0 +1,14 @@
+# PromptRefiner app icon
+
+Generated with the built-in ImageGen tool for the prompt-refinement app. The selected original character uses ink-navy hair, a golden eye and fountain-pen-nib hair ornament, a mint-turquoise background and a restrained coral accent.
+
+The visual references were the close character portraits, expressive faces, and contrasting backgrounds used in Genshin Impact, Honkai: Star Rail and Zenless Zone Zero app icons. The generated character is original; reference game imagery is not distributed with the app.
+
+- `AppIcon.png`: selected original generated artwork, 1254×1254.
+- `AppIcon.icon/Assets/Mascot.png`: 1024×1024 export for the native macOS icon stack.
+- `AppIcon.icon/icon.json`: native icon composition; the full-bleed image meets the bottom edge and macOS supplies the mask.
+- `../Resources/StatusIcon.pdf`: original monochrome pen-nib and star mark for the menu bar; editable generator in `../Scripts/render-status-icon.swift`.
+
+## Final generation prompt
+
+Use case: logo-brand. Asset type: ONE finished original character-portrait app icon for PromptRefiner, an AI prompt writing assistant. Take visual design inspiration from the composition and readability of miHoYo game icons such as Genshin Impact, Honkai Star Rail and Zenless Zone Zero: a very close, expressive face, bold clean silhouette, simple saturated background and crisp graphic anime cel shading. Design an ORIGINAL adult female editorial companion character, not any existing game character. She has a short, sleek INK-NAVY BLUE bob with a few blue-teal edge highlights, asymmetrical sweeping bangs, one vivid golden-amber eye looking at the viewer and the other playfully winking, a bright confident small open-mouth smile and a slight three-quarter head tilt. Distinctive small GOLD FOUNTAIN PEN NIB hair clip on one side is the single signature accessory. Modest modern ivory collar and dark navy jacket with a restrained gold trim at the bottom of the portrait. Head and face occupy about 80% of the square, close-cropped crown allowed, shoulders and jacket extend through the bottom edge. Bright MINT-TURQUOISE full-bleed background with one restrained coral diagonal graphic accent behind the head, very simple and high contrast. Stylized clean 2D anime game key-art aesthetic, broad areas of flat color and purposeful cel shadows, controlled fine highlights, expressive polished face, visibly less glossy and less airbrushed than generic AI anime art. Silhouette and eye expression must stay readable at 32 pixels. Square 1024x1024 final icon image, fill every edge, no inner tile, no baked rounded corners, no external shadow because macOS applies its own icon mask. No white or silver hair, no headphones or microphone, no hands, no game logos, no letters or text, no watermark, no ornate scenery, no generic AI sparkles everywhere. This is an original memorable software mascot icon, not a game screenshot or icon mockup.

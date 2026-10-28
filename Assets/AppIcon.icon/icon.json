@@ -1,0 +1,21 @@
+{
+  "fill": { "solid": "srgb:0.12157,0.89412,0.76863,1.00000" },
+  "groups": [
+    {
+      "name": "Editorial companion",
+      "layers": [
+        {
+          "image-name": "Mascot.png",
+          "name": "Ink-haired prompt editor",
+          "glass": false,
+          "position-specializations": [
+            { "idiom": "square", "value": { "scale": 1, "translation-in-points": [0, 0] } }
+          ]
+        }
+      ],
+      "shadow": { "kind": "neutral", "opacity": 0 },
+      "translucency": { "enabled": false, "value": 0 }
+    }
+  ],
+  "supported-platforms": { "squares": "shared" }
+}
