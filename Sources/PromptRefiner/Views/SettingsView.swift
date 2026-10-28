@@ -3,7 +3,13 @@ import SwiftUI
 struct SettingsView: View {
     @ObservedObject var settings: Settings
     @ObservedObject var coordinator: Coordinator
-    @State private var selectedTab = SettingsTab.general
+    @State private var selectedTab: SettingsTab
+
+    init(settings: Settings, coordinator: Coordinator, initialTab: SettingsTab = .general) {
+        self.settings = settings
+        self.coordinator = coordinator
+        _selectedTab = State(initialValue: initialTab)
+    }
 
     var body: some View {
         VStack(spacing: 0) {

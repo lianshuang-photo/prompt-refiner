@@ -10,8 +10,9 @@ public final class CodexClient: @unchecked Sendable {
     public init() {}
 
     public static func locateExecutable() -> String {
+        let standalone = FileManager.default.homeDirectoryForCurrentUser.appendingPathComponent(".local/bin/codex").path
         for candidate in ["/Applications/ChatGPT.app/Contents/Resources/codex-cli/CodexCLI.app/Contents/MacOS/codex",
-                          "/Applications/Codex.app/Contents/Resources/codex", "/opt/homebrew/bin/codex", "/usr/local/bin/codex"] {
+                          "/Applications/Codex.app/Contents/Resources/codex", "/opt/homebrew/bin/codex", "/usr/local/bin/codex", standalone] {
             if FileManager.default.isExecutableFile(atPath: candidate) { return candidate }
         }
         return ""

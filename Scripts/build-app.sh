@@ -11,6 +11,7 @@ cp "$task_root/.build/release/PromptRefiner" "$task_app/Contents/MacOS/PromptRef
 cp "$task_root/Resources/Info.plist" "$task_app/Contents/Info.plist"
 cp "$task_root/Resources/StatusIcon.pdf" "$task_app/Contents/Resources/StatusIcon.pdf"
 cp "$task_root/Assets/AppIcon.png" "$task_app/Contents/Resources/Brandmark.png"
+cp "$task_root/LICENSE" "$task_app/Contents/Resources/LICENSE.txt"
 for task_resource in "$task_root"/.build/release/*.bundle(N); do
     cp -R "$task_resource" "$task_app/Contents/Resources/"
 done
