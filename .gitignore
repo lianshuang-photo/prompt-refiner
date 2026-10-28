@@ -4,7 +4,7 @@ dist/
 *.xcuserstate
 verification/
 .context/
-VERIFICATION.md
+/VERIFICATION.md
 .env
 .env.*
 !.env.example
